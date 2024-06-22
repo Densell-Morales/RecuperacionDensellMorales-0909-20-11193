@@ -20,6 +20,15 @@ public class Main {
         switch (opcion) {
             case 1:
                 System.out.println("Elegiste: Metodo para ingresar dos numeros y un operador cualquiera");
+                ExamenfinalVarianteA operaciones1 = new ExamenfinalVarianteA();
+                System.out.println("Ingrese el primer numero");
+                int primeroNumero = scanner.nextInt();
+                System.out.println("Ingrese el segundo numero");
+                int segundoNumero = scanner.nextInt();
+                System.out.println("Ingrese el operador");
+                String op = String.valueOf(scanner.nextInt());
+                int resultado = operaciones1.operacion(primeroNumero, segundoNumero, op);
+                System.out.println("El Resultado es :" + resultado);
                 break;
             case 2:
                 System.out.println("Elegiste: Clase catedratico");
@@ -41,5 +50,8 @@ public class Main {
                 System.out.println("Opción no válida. Inténtalo nuevamente.");
         }
 
-        }
+
+
     }
+}
+
