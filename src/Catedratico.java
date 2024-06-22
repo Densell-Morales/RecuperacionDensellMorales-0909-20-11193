@@ -13,7 +13,9 @@ String horario;
         this.horario = nombre;
     }
 
-    public void AlumnosCatedratico(String nombre, String apellido, String edad){}
+    public void AlumnosCatedratico(String nombre, String apellido, String edad){
+
+    }
 
     public void ClasesCatedratico(String nombreClase, String horario){}
 
